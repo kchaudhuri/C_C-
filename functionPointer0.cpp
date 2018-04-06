@@ -12,6 +12,6 @@ int main()
 
     void (*fp)() = func;
     fp();
-
+    (*fp)();
     return 0;
 }
